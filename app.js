@@ -9,6 +9,8 @@ const sum1 = document.getElementById('sum')
 addButton1.addEventListener('click', () => {
     const addSum = Number(addNum1.value) + Number(addNum2.value);
     sum1.textContent = addSum;
+    addNum1.value = '';
+    addNum2.value = '';
 })
 
 // import functions and grab DOM elements SUBTRACT BUTTON
@@ -23,6 +25,8 @@ const sub1 = document.getElementById('sub')
 subButton1.addEventListener('click', () => {
     const subSum = Number(subNum1.value) - Number(subNum2.value);
     sub1.textContent = subSum;
+    subNum1.value = '';
+    subNum2.value = '';
 })
 
 // import functions and grab DOM elements MULTIPY BUTTON
@@ -38,6 +42,8 @@ const multiply1 = document.getElementById('multiply')
 multiplyButton1.addEventListener('click', () => {
     const multiplyNum = Number(multiplyNum1.value) * Number(multiplyNum2.value);
     multiply1.textContent = multiplyNum;
+    multiplyNum1.value = '';
+    multiplyNum2.value = '';
 })
 
 // import functions and grab DOM elements DIVIDE BUTTON
@@ -53,4 +59,6 @@ const divide1 = document.getElementById('divide')
 divideButton1.addEventListener('click', () => {
     const divideNum = Number(divideNum1.value) / Number(divideNum2.value);
     divide1.textContent = divideNum;
+    divideNum1.value = '';
+    divideNum2.value = '';
 })
