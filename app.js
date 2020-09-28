@@ -1,4 +1,4 @@
-import { addNumbers, subNumbers, multiplyNumbers, divideNumbers } from '../mathUtils.js';
+import { addNumbers, subNumbers, multiplyNumbers, divideNumbers } from './mathUtils.js';
 
 // BUTTONS
 const addButton1 = document.getElementById('addButton');
